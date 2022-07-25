@@ -3,6 +3,7 @@
 
 
 Versao 1.0 - Pedro Lima - 25-07-2022
+HTML - CSS - JAVASCRIPT - BOOTSTRAP5
 
 
 
