@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo Base</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="container">
+
+        <div id="titulo">
+            <h1 >Calculo de IMC</h1>
+
+        </div>
+        
+        <div id="texto"> 
+            
+            <h3>Missao :</h3> 
+            <p> Temos a missao de entregar o melhor servico ao cliente. Nossa vontade de proporcionar solucoes inovadoras
+                ultrapassa barreiras, estando sempre alinhada com nosso proposito. <br>
+                <strong>Evoluir - Proporcionar - Entregar - Amar</strong>
+
+                <br>Partimos do principio que cada cliente e unico, por isso acreditamos que sua jornada e
+                importantissima para nos. <br><i> Queremos voce sempre conosco. </i>
+            </p>
+            <br>
+            <h3> <b>\ Tabela de IMC</b> </h3><br>
+            
+            <table class="table table-borderless table-hover">
+                <tr>
+                    <th>IMC</th>
+                    <th>Resultado</th>
+                </tr>
+
+                <tr>
+                    <td> Menos que 18.5</td>
+                    <td> Abaixo do peso</td>
+                </tr>  
+                <tr>
+                    <td> Entre 18.5 e 24.9</td>
+                    <td> Peso normal</td>
+                </tr> 
+                <tr>
+                    <td> Entre 25 e 29.9</td>
+                    <td> Sobrepeso</td>
+                </tr> 
+                <tr>
+                    <td> Entre 30 e 34.9</td>
+                    <td> Obesidade grau 1</td>
+                </tr> 
+                <tr>
+                    <td> Entre 35 e 39.9</td>
+                    <td>Obesidade grau 2</td>
+                </tr> 
+                <tr>
+                    <td> Mais que 40</td>
+                    <td> Obesidade grau 3</td>
+                </tr>     
+
+
+            </table>
+
+            <br><h3>\ Calcule seu IMC</h3>
+
+        </div>
+
+        <form action="" method="post" class="form">
+
+            <label for="botaopeso" class="form-label" > Peso</label>
+            <input type="text" class="form-control" name="botaopeso" id="ipeso"><br>
+
+            <label for="botaoaltura" class="form-label" > Altura</label>
+            <input type="text" class="form-control" name="botaoaltura" id="ialtura" ><br>
+
+            <input type="submit" class="btn btn-primary" value="Calcular">
+
+        </form>
+        <div id="resultado">
+
+        </div>
+    </section>
+
+</body>
+
+    <script src="./js/script.js"></script>
+
+</html>
