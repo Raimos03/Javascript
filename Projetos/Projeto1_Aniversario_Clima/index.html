@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo_Base</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="container">
+        <div id="titulo">
+            <h1>Data e hora</h1>
+        </div>
+
+        <div id="texto" class="card">
+        </div>
+
+        <form action="" method="post" class="row g-3 form_align" id="envio_aniv">
+
+            <h3> Preencha com a data do seu aniversario:</h3>
+
+            <div class="col-auto">
+                <label for="idia" class="form-label"> Dia</label>
+                <input type="text" id="idia" class="form-control" name="idia"><br>
+            </div>
+
+        
+            <div class="select-wrapper col-auto fix-label" id="id_select">
+
+               <label id="imes" for="select" class="form-label">Mes</label>
+            
+                <select id="select" name="select"> 
+                  <option value="1">Janeiro</option>
+                  <option value="2">Fevereiro</option>
+                  <option value="3">Marco</option>
+                  <option value="4">Abril</option>
+                  <option value="5">Maio</option>
+                  <option value="6">Junho</option>
+                  <option value="7">Julho</option>
+                  <option value="8">Agosto</option>
+                  <option value="9">Setembro</option>
+                  <option value="10">Outubro</option>
+                  <option value="11">Novembro</option>
+                  <option value="12">Dezembro</option>
+                </select>
+            </div>
+
+            <div class="col-auto">
+                <label for="iano" class="form-label">Ano</label>
+                <input type="text" id="iano" class="form-control" name="iano"><br>
+            </div>
+
+            <div class="select-wrapper col-auto fix-label" id="regiao">
+
+                <label id="ireg" for="regiao_select" class="form-label">Cidade</label>
+             
+                 <select id="select_regiao" name="regiao_select"> 
+                   <option value="sudeste">RJ</option>
+                   
+                  
+                 </select>
+             </div>
+
+            <div class="col-auto align_div">
+                <input type="submit" class="btn btn-primary mb-3 align" value="Enviar" name="envio_aniv">
+            </div>
+
+            <div class="container_bissexto">
+                <div class="coluna1">
+                    <h3>Verificar se o ano corrente e bissexto:</h3>
+                    <input type="button" value="Verificar" id="botao_bissexto">
+                </div>
+                
+                <div class="coluna2">
+                    <div class="col-auto resposta" id="Resposta_bissexto">
+                        <img id="img_resposta"src="">
+                        <h2 id="h2_resposta"></h2>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+            <div class="container_bissexto">
+
+                <div class="coluna1full">
+                   
+                    <main > 
+                        <h2>Faltam</h2>
+
+                        <div id="conteudo_aniversario" >
+                            <h2 id="r_dia">12210*dia</h2>
+                            <h2 id="r_hora">14521132*hora</h2>
+                            <h2 id="r_minuto">6512244785*minutos</h2>
+                            <h2 id="r_segundo">6512244785*segundos</h2>
+                            <h2 id="r_semana">Caira em um(a) </h2>
+                            <div id="r_tempo" class="glass tilt"> 
+
+                                    <h4 id="titulo_tempo" >Tempo Agora - RJ</h4>
+                                    
+                                    <div id="desc_tempo" >
+                                        <div id="temperature">   
+                                            <h1></h1>
+                                                          
+                                        </div>
+                                        <h4 id="sensation" class="f_respostas">SST: </h4>
+                                        <h4 id="condition" class="f_respostas"></h4>
+                                        <h4 id="humidity" class="f_respostas">UM: </h4>
+                                        <h4 id="wind_velocity" class="f_respostas">VV: </h4>
+                                        <h4 id="wind_direction" class="f_respostas">DV: </h4>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <div id="legenda"> 
+
+                            <p>
+                            SST: Sensacao termica - UM: Umidade - VV: Intensidade do vento em Km/h - DV: Direcao cardial do vento 
+                            </p>
+
+                        </div>
+
+                        
+                        
+                    </main>
+                </div>
+                
+                
+            </div>
+            
+    </section>
+ 
+    <footer id="rodape" class="container">
+        <p>Desenvolvido por Pedro Lima 19-08-2022</p>
+    </footer>
+    
+</body>
+<script type="text/javascript" src="./js/vanilla-tilt.min.js"></script>
+<script src="./js/script.js"></script>
+
+
+</html>

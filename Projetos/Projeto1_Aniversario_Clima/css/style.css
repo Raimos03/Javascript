@@ -1,0 +1,379 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+ 
+
+:root{
+    --primary-color: rgb(247, 245, 252);
+    --blue-color: ( #3082fc);
+}
+*{
+    outline: 0;
+}
+
+h1,h2,h3,h4{
+    margin-bottom: 15px;
+}
+
+#titulo h1{
+    color:white;
+    padding: 10px 25px;
+}
+
+#titulo{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background-color: #2c71da;
+    height: 80px;
+}
+
+body{
+    margin:0;
+    padding:5px;
+    background: var(--primary-color) !important;
+    height:1500px;
+}
+
+input{
+    margin:10px 20px;
+    padding:5px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.container_bissexto{
+    display:flex;
+    justify-content:space-between;
+}
+
+.coluna1, .coluna2{
+
+    margin:0;
+    padding:0;
+    width: 40%;
+    
+}
+.coluna1full{
+
+    width: 100%;
+    height: 200px;
+    visibility: hidden;
+    padding: 20px;
+}
+
+.coluna1full > h3{
+
+   padding: 25px 13px 13px 13px;
+}
+
+.resposta h2{
+    color:#4fb925;
+    
+}
+
+.coluna2 img{
+
+    width: 40px;
+}
+
+.resposta{
+    display: flex;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.resposta *{
+    margin: 20px 0px 0px 0px;
+}
+
+
+form{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(222, 225, 236, 0.384); 
+}
+
+
+.form_align{
+    margin:3px 3px !important;
+}
+
+.fix-label{
+    display:flex;
+    justify-content:center;
+}
+
+
+
+
+form div{
+    margin: 10px;
+}
+
+
+.card{
+    width: 100%; 
+    background-color: rgba(222, 225, 236, 0.384) !important;
+    padding: 20px 30px;
+    margin:50px 0px;
+    border: none !important;
+}   
+
+.align_div{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+
+}
+.align{
+    align-self: center;
+    margin-top: 25px;
+}
+
+.select-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    
+  }
+
+.f_respostas{
+    font-weight: 500 !important;
+}
+
+main{
+    margin:50px 15px 0 15px;
+    border-radius: 10px;
+    /*background-color: rgb(77, 96, 206) !important*/;
+    background-image: url('../img/fundo_aniversario.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 30PX;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 1 );
+    height: 670px;
+
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+main h3,h4,h2{
+    color:white;
+    padding: 20px 20px;
+    font-family: 'Roboto', sans-serif !important;
+    
+}
+#select {
+    
+    margin-top: 7px;
+    width: 130px;
+    height: 35px;
+
+    }
+
+#id_select{
+    width: 200px;
+}
+
+#id_select p{
+    
+    display:block;
+    width: 200px;
+    margin: 0;
+    padding:0;
+}   
+
+#id_select select{
+    display:block;
+    width:200px;
+}
+#imes{
+    position:absolute;
+    top:0.5px;
+    left: 10px;
+}
+
+#select_regiao{
+    margin-top: 7px;
+    width: 130px;
+    height: 35px;
+}
+
+#ireg{
+    position:absolute;
+    top:0.5px;
+    left: 10px;
+}
+
+#conteudo_aniversario{
+    padding:15px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-around;
+    height: 400px;
+
+    gap: 0px 20px;  
+}
+
+#desc_tempo{
+    margin-top: 20px;
+    padding:6px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    align-content: space-around;
+    gap: 0px 10px;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+#desc_tempo h4{
+    padding: 2px !important;
+}
+#desc_tempo *{
+
+    font-family: Jost, sans-serif !important;
+}
+
+#titulo_tempo{
+
+    padding: 20px 20px 5px 20px;
+}
+
+#r_tempo{
+    /*background-color: #4fb925 !important; */
+
+    
+
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    height: 282px;
+    width: 500px;
+}
+
+
+#temperature {
+    display: flex;
+    height:80px;
+}
+
+#temperatura img{
+    width:50px;
+    height:50px;
+}
+#temperature h1{
+
+    font-size:50px;
+    color:white;
+}
+
+input[type=button] {
+    margin: 20px 0px;
+  }
+
+/*-----------Efeitos-------------------*/
+
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+main a{
+    margin-left:  780px;
+    
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.329)
+}
+main a:hover{
+    
+    margin-left: 780px;
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.329);
+    color: rgb(36, 39, 163)
+}
+
+main >h2{
+    margin: 30px 0px 30px 30px;
+    font-size: 40px;
+    font-family: 'Jost', sans-serif !important;
+}
+
+#conteudo_aniversario :nth-child(5){
+    font-size: 30px;
+    font-family: 'Jost', sans-serif !important;
+
+}
+
+footer{
+
+    padding: 5px;
+    text-align: center;
+}
+footer p{
+
+    margin:auto;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    color: rgb(31,38,125);
+}
+
+#legenda{
+    height: 80px;
+    width: 480px;
+    margin-left: 565px;
+}
+
+#legenda p {
+    margin:auto;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    color: var(--primary-color) !important;
+   
+}
+.passou_aniversario{
+
+    color: var(--primary-color) !important;
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.subtext{
+
+    color: var(--primary-color) !important;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+
+}
+
