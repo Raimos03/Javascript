@@ -4,6 +4,8 @@
 
 Versao 1.0 - Pedro Lima - 25-07-2022
 
+HTML - CSS - JAVASCRIPT - BOOTSTRAP5
+
 
 
 Exercicio que calcula o IMC da pessoa dado a altura e o peso.
