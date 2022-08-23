@@ -1,8 +1,8 @@
 # Projeto Tempo Restante e Clima
-O intuito do projeto e mostrar minhas habilidades iniciais em Javascript. 
+Projeto criado para mostrar minhas habilidades iniciais em Javascript. 
 Capturando inputs de um formulario, digo ao usuario de forma dinamica o tempo 
 restante para seu aniversario bem como se o ano corrente e bissexto e o clima do 
-dia via API. 
+dia de consulta (atual) via API. 
 
 Versao 1.0 - Pedro Henrique Lima 23-08-2022
 ## O programa contempla:
