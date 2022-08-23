@@ -1,4 +1,4 @@
-# Projeto Tempo Restante e Clima
+# Projeto Aniversario e Clima
 Projeto criado para mostrar minhas habilidades iniciais em Javascript. 
 Capturando inputs de um formulario, digo ao usuario de forma dinamica o tempo 
 restante para seu aniversario bem como se o ano corrente e bissexto e o clima do 
