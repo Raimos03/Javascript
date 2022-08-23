@@ -7,7 +7,7 @@ dia de consulta (atual) via API.
 Versao 1.0 - Pedro Henrique Lima 23-08-2022
 ## O programa contempla:
 
-    * Tratamento de mudanca de estados entre datas ja ocorridas e que ainda virao de forma independente.
+    * Tratamento de mudanca de estados entre datas ocorridas e que ainda virao de forma independente.
     * Efeito CSS.
     * Consulta a API para pegar informacoes de clima.
     * Utilizacao de objeto Date()
